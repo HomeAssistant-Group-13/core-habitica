@@ -35,7 +35,9 @@ async def test_sensors(
     """Test setup of the Habitica sensor platform."""
 
     # Mock random.choice to return consistent motivational message
-    with patch("homeassistant.components.habitica.sensor.random.choice") as mock_choice:
+    with patch(
+        "homeassistant.components.habitica.sensor.utils.random.choice"
+    ) as mock_choice:
         mock_choice.return_value = (
             "🚀 Your future self will thank you for what you do today!"
         )

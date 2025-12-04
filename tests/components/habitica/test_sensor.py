@@ -25,6 +25,7 @@ def sensor_only() -> Generator[None]:
 
 
 @pytest.mark.usefixtures("habitica", "entity_registry_enabled_by_default")
+@pytest.mark.freeze_time("2024-09-18 00:00:00+00:00")
 async def test_sensors(
     hass: HomeAssistant,
     config_entry_with_subentry: MockConfigEntry,
@@ -33,12 +34,18 @@ async def test_sensors(
 ) -> None:
     """Test setup of the Habitica sensor platform."""
 
-    config_entry_with_subentry.add_to_hass(hass)
-    await hass.config_entries.async_setup(config_entry_with_subentry.entry_id)
-    await hass.async_block_till_done()
+    # Mock random.choice to return consistent motivational message
+    with patch("homeassistant.components.habitica.sensor.random.choice") as mock_choice:
+        mock_choice.return_value = (
+            "🚀 Your future self will thank you for what you do today!"
+        )
 
-    assert config_entry_with_subentry.state is ConfigEntryState.LOADED
+        config_entry_with_subentry.add_to_hass(hass)
+        await hass.config_entries.async_setup(config_entry_with_subentry.entry_id)
+        await hass.async_block_till_done()
 
-    await snapshot_platform(
-        hass, entity_registry, snapshot, config_entry_with_subentry.entry_id
-    )
+        assert config_entry_with_subentry.state is ConfigEntryState.LOADED
+
+        await snapshot_platform(
+            hass, entity_registry, snapshot, config_entry_with_subentry.entry_id
+        )

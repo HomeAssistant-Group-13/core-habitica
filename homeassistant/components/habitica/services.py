@@ -879,29 +879,19 @@ def async_setup_services(hass: HomeAssistant) -> None:
             schema=SERVICE_UPDATE_TASK_SCHEMA,
             supports_response=SupportsResponse.ONLY,
         )
-    # FR-1: Only CREATE_HABIT is required for Phase 4
-    # TODO: Uncomment other services when needed in future phases
-    # for service in (
-    #     SERVICE_CREATE_DAILY,
-    #     SERVICE_CREATE_REWARD,
-    #     SERVICE_CREATE_TODO,
-    # ):
-    #     hass.services.async_register(
-    #         DOMAIN,
-    #         service,
-    #         _create_or_update_task,
-    #         schema=SERVICE_CREATE_TASK_SCHEMA,
-    #         supports_response=SupportsResponse.ONLY,
-    #     )
-    
-    # FR-1: Create Habit service (ACTIVE)
-    hass.services.async_register(
-        DOMAIN,
+    for service in (
+        SERVICE_CREATE_DAILY,
         SERVICE_CREATE_HABIT,
-        _create_or_update_task,
-        schema=SERVICE_CREATE_TASK_SCHEMA,
-        supports_response=SupportsResponse.ONLY,
-    )
+        SERVICE_CREATE_REWARD,
+        SERVICE_CREATE_TODO,
+    ):
+        hass.services.async_register(
+            DOMAIN,
+            service,
+            _create_or_update_task,
+            schema=SERVICE_CREATE_TASK_SCHEMA,
+            supports_response=SupportsResponse.ONLY,
+        )
 
     hass.services.async_register(
         DOMAIN,

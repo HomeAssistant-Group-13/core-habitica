@@ -625,6 +625,28 @@ async def test_score_task_exceptions(
         )
 
 
+async def test_score_reward_habitica_exception(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+) -> None:
+    """Test Habitica score reward action with HabiticaException."""
+    habitica.update_score.side_effect = ERROR_BAD_REQUEST
+
+    with pytest.raises(HomeAssistantError, match=REQUEST_EXCEPTION_MSG):
+        await hass.services.async_call(
+            DOMAIN,
+            SERVICE_SCORE_REWARD,
+            service_data={
+                ATTR_CONFIG_ENTRY: config_entry.entry_id,
+                ATTR_TASK: "5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b",
+                ATTR_DIRECTION: "up",
+            },
+            return_response=True,
+            blocking=True,
+        )
+
+
 @pytest.mark.parametrize(
     ("service_data", "call_args"),
     [

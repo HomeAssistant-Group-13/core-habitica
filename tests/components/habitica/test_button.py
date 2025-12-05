@@ -2,16 +2,17 @@
 
 from collections.abc import Generator
 from datetime import timedelta
-from unittest.mock import AsyncMock, patch
+from unittest.mock import AsyncMock, MagicMock, patch
+from uuid import UUID
 
 from aiohttp import ClientError
 from freezegun.api import FrozenDateTimeFactory
-from habiticalib import HabiticaUserResponse, Skill
+from habiticalib import Direction, HabiticaTasksResponse, HabiticaUserResponse, Skill
 import pytest
 from syrupy.assertion import SnapshotAssertion
 
 from homeassistant.components.button import DOMAIN as BUTTON_DOMAIN, SERVICE_PRESS
-from homeassistant.components.habitica.const import DOMAIN
+from homeassistant.components.habitica.const import DATA_HABIT_SENSORS, DOMAIN
 from homeassistant.config_entries import ConfigEntryState
 from homeassistant.const import ATTR_ENTITY_ID, STATE_UNAVAILABLE, Platform
 from homeassistant.core import HomeAssistant
@@ -24,6 +25,7 @@ from tests.common import (
     MockConfigEntry,
     async_fire_time_changed,
     async_load_fixture,
+    load_fixture,
     snapshot_platform,
 )
 
@@ -378,3 +380,270 @@ async def test_class_change(
 
     for skill in healer_skills:
         assert hass.states.get(skill)
+
+
+async def test_habit_button_creation(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+    entity_registry: er.EntityRegistry,
+) -> None:
+    """Test habit buttons are created for each habit."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Verify habit buttons are created (up and down for each habit)
+    # From tasks.json fixture, we have 3 habits
+    habit_buttons = [
+        "button.gesundes_essen_junkfood_up",
+        "button.gesundes_essen_junkfood_down",
+        "button.eine_kurze_pause_machen_up",
+        "button.eine_kurze_pause_machen_down",
+        "button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up",
+        "button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down",
+    ]
+
+    for entity_id in habit_buttons:
+        state = hass.states.get(entity_id)
+        assert state is not None
+
+
+async def test_habit_button_press_up(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+) -> None:
+    """Test pressing habit up button."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Press the up button for the first habit
+    entity_id = "button.gesundes_essen_junkfood_up"
+
+    habitica.update_score.reset_mock()
+    await hass.services.async_call(
+        BUTTON_DOMAIN,
+        SERVICE_PRESS,
+        {ATTR_ENTITY_ID: entity_id},
+        blocking=True,
+    )
+
+    # Verify the correct API call was made
+    habitica.update_score.assert_awaited_once_with(
+        UUID("f21fa608-cfc6-4413-9fc7-0eb1b48ca43a"), Direction.UP
+    )
+
+
+async def test_habit_button_press_down(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+) -> None:
+    """Test pressing habit down button."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Press the down button for the first habit
+    entity_id = "button.gesundes_essen_junkfood_down"
+
+    habitica.update_score.reset_mock()
+    await hass.services.async_call(
+        BUTTON_DOMAIN,
+        SERVICE_PRESS,
+        {ATTR_ENTITY_ID: entity_id},
+        blocking=True,
+    )
+
+    # Verify the correct API call was made
+    habitica.update_score.assert_awaited_once_with(
+        UUID("f21fa608-cfc6-4413-9fc7-0eb1b48ca43a"), Direction.DOWN
+    )
+
+
+async def test_habit_button_availability_up_disabled(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+) -> None:
+    """Test habit button with up disabled is unavailable."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Third habit has up=false, down=true
+    up_button = hass.states.get(
+        "button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up"
+    )
+    down_button = hass.states.get(
+        "button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down"
+    )
+
+    assert up_button is not None
+    assert up_button.state == STATE_UNAVAILABLE
+    assert down_button is not None
+    assert down_button.state != STATE_UNAVAILABLE
+
+
+async def test_habit_button_availability_down_disabled(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+) -> None:
+    """Test habit button with down disabled is unavailable."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Second habit has up=true, down=false
+    up_button = hass.states.get("button.eine_kurze_pause_machen_up")
+    down_button = hass.states.get("button.eine_kurze_pause_machen_down")
+
+    assert up_button is not None
+    assert up_button.state != STATE_UNAVAILABLE
+    assert down_button is not None
+    assert down_button.state == STATE_UNAVAILABLE
+
+
+async def test_habit_button_removal(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+    freezer: FrozenDateTimeFactory,
+    entity_registry: er.EntityRegistry,
+) -> None:
+    """Test habit buttons are removed when habit is deleted."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Verify initial habit buttons exist
+    initial_entities = [
+        "button.gesundes_essen_junkfood_up",
+        "button.gesundes_essen_junkfood_down",
+    ]
+    for entity_id in initial_entities:
+        assert hass.states.get(entity_id) is not None
+        assert entity_registry.async_get(entity_id) is not None
+
+    # Mock get_tasks to return tasks without the first habit for future calls
+    def mock_get_tasks_without_habit(task_type=None):
+        """Mock tasks without first habit."""
+        if task_type:
+            return HabiticaTasksResponse.from_json(
+                load_fixture("completed_todos.json", DOMAIN)
+            )
+        # Return tasks without the first habit
+        tasks_data = HabiticaTasksResponse.from_json(load_fixture("tasks.json", DOMAIN))
+        # Filter out the first habit
+        tasks_data.data = [
+            task
+            for task in tasks_data.data
+            if task.id != "f21fa608-cfc6-4413-9fc7-0eb1b48ca43a"
+        ]
+        return tasks_data
+
+    habitica.get_tasks.side_effect = mock_get_tasks_without_habit
+
+    # Trigger coordinator update
+    freezer.tick(timedelta(seconds=60))
+    async_fire_time_changed(hass)
+    await hass.async_block_till_done()
+
+    # Verify habit buttons are removed from entity registry
+    for entity_id in initial_entities:
+        assert entity_registry.async_get(entity_id) is None
+
+
+async def test_habit_button_with_optimistic_update(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+) -> None:
+    """Test habit button press with optimistic sensor update."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Create mock sensor for optimistic update testing
+    mock_sensor = MagicMock()
+    mock_sensor.set_optimistic_update = MagicMock()
+
+    # Register the mock sensor in hass.data
+    if DATA_HABIT_SENSORS not in hass.data:
+        hass.data[DATA_HABIT_SENSORS] = {}
+    if config_entry.entry_id not in hass.data[DATA_HABIT_SENSORS]:
+        hass.data[DATA_HABIT_SENSORS][config_entry.entry_id] = {}
+
+    hass.data[DATA_HABIT_SENSORS][config_entry.entry_id][
+        "f21fa608-cfc6-4413-9fc7-0eb1b48ca43a"
+    ] = mock_sensor
+
+    # Press the up button
+    entity_id = "button.gesundes_essen_junkfood_up"
+    habitica.update_score.reset_mock()
+
+    await hass.services.async_call(
+        BUTTON_DOMAIN,
+        SERVICE_PRESS,
+        {ATTR_ENTITY_ID: entity_id},
+        blocking=True,
+    )
+
+    # Verify optimistic update was called on the sensor
+    mock_sensor.set_optimistic_update.assert_called_once()
+    call_args = mock_sensor.set_optimistic_update.call_args
+    assert call_args[0][1] == "up"  # direction argument
+
+    # Verify API call was also made
+    habitica.update_score.assert_awaited_once_with(
+        UUID("f21fa608-cfc6-4413-9fc7-0eb1b48ca43a"), Direction.UP
+    )
+
+
+async def test_habit_button_without_sensor(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    habitica: AsyncMock,
+) -> None:
+    """Test habit button press without corresponding sensor (sensor not found path)."""
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Don't register any sensors in hass.data
+    # This tests the _get_habit_sensor() returning None path
+
+    # Press the up button
+    entity_id = "button.gesundes_essen_junkfood_up"
+    habitica.update_score.reset_mock()
+
+    await hass.services.async_call(
+        BUTTON_DOMAIN,
+        SERVICE_PRESS,
+        {ATTR_ENTITY_ID: entity_id},
+        blocking=True,
+    )
+
+    # Should still work, just without optimistic update
+    habitica.update_score.assert_awaited_once_with(
+        UUID("f21fa608-cfc6-4413-9fc7-0eb1b48ca43a"), Direction.UP
+    )

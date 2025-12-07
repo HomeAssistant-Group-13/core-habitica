@@ -312,3 +312,80 @@ async def test_adjust_polling_for_activity_no_last_activity(
 
     # Should NOT change interval when no activity tracked
     assert coordinator._update_interval == original_interval
+
+
+@pytest.mark.usefixtures("habitica")
+async def test_default_maximum_polling_interval_nfr3(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+    freezer: FrozenDateTimeFactory,
+) -> None:
+    """Test NFR-3: Default maximum polling interval must not exceed 5 minutes (300 seconds).
+
+    Non-Functional Requirement 3 (Reliability):
+    Task status MUST be polled from the API at a configurable interval,
+    with a default MAXIMUM of 5 minutes.
+
+    This test verifies that even with no user activity for extended periods,
+    the polling interval does not exceed 5 minutes to ensure reliable
+    task status updates.
+    """
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    coordinator: HabiticaDataUpdateCoordinator = config_entry.runtime_data
+
+    # Test scenario 1: Very old activity (no activity for days)
+    # Should still poll at least every 5 minutes
+    base_time = datetime.now(UTC)
+    coordinator._last_activity_time = base_time - timedelta(days=7)
+    coordinator._rate_limited_count = 0
+
+    with patch(
+        "homeassistant.components.habitica.coordinators.user.datetime"
+    ) as mock_datetime:
+        mock_datetime.now.return_value = base_time
+        coordinator._adjust_polling_for_activity()
+
+    # Verify polling interval does not exceed 300 seconds (5 minutes)
+    assert coordinator._update_interval.total_seconds() <= 300, (
+        f"Polling interval {coordinator._update_interval.total_seconds()}s "
+        f"exceeds maximum allowed 300s (5 minutes) - violates NFR-3"
+    )
+
+    # Test scenario 2: No activity at all (None)
+    # Should use base interval which must not exceed 5 minutes
+    coordinator._last_activity_time = None
+
+    coordinator._adjust_polling_for_activity()
+
+    assert coordinator._update_interval.total_seconds() <= 300, (
+        f"Base polling interval {coordinator._update_interval.total_seconds()}s "
+        f"exceeds maximum allowed 300s (5 minutes) - violates NFR-3"
+    )
+
+    # Test scenario 3: All possible activity-based intervals
+    # Should never exceed 5 minutes regardless of activity pattern
+    test_cases = [
+        (timedelta(seconds=30), "Recent activity (<5 min)"),
+        (timedelta(minutes=10), "Moderate activity (5-30 min)"),
+        (timedelta(minutes=45), "Low activity (30min-1hr)"),
+        (timedelta(hours=2), "Very low activity (>1 hr)"),
+        (timedelta(days=30), "Extremely old activity (30 days)"),
+    ]
+
+    for time_delta, description in test_cases:
+        coordinator._last_activity_time = base_time - time_delta
+        coordinator._rate_limited_count = 0
+
+        with patch(
+            "homeassistant.components.habitica.coordinators.user.datetime"
+        ) as mock_datetime:
+            mock_datetime.now.return_value = base_time
+            coordinator._adjust_polling_for_activity()
+
+        assert coordinator._update_interval.total_seconds() <= 300, (
+            f"Polling interval {coordinator._update_interval.total_seconds()}s "
+            f"for {description} exceeds maximum 300s (5 minutes) - violates NFR-3"
+        )

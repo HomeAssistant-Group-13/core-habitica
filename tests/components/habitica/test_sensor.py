@@ -309,6 +309,90 @@ async def test_habit_sensor_extra_state_attributes_with_optimistic_counters(
 
 
 @pytest.mark.usefixtures("habitica")
+async def test_habit_sensor_optimistic_update_reliability_nfr1(
+    hass: HomeAssistant,
+    config_entry: MockConfigEntry,
+) -> None:
+    """Test optimistic updates succeed reliably (95%+ success rate).
+
+    Non-Functional Requirement 1 (Performance & Reliability):
+    The backend must successfully trigger optimistic updates in at least
+    95% of button press interactions, ensuring users receive immediate
+    visual feedback without waiting for API responses.
+
+    This test validates the backend portion of NFR-1. The complete
+    requirement (button press → visual feedback < 4 seconds in 95% of
+    cases) requires frontend integration testing to measure end-to-end
+    user experience including network latency and UI rendering.
+
+    The test performs 100 consecutive optimistic updates and verifies
+    that at least 95% succeed, ensuring the mechanism is reliable under
+    repeated use.
+    """
+    config_entry.add_to_hass(hass)
+    await hass.config_entries.async_setup(config_entry.entry_id)
+    await hass.async_block_till_done()
+
+    assert config_entry.state is ConfigEntryState.LOADED
+
+    # Test configuration
+    NUM_ATTEMPTS = 100
+    SUCCESS_THRESHOLD = 0.95  # 95%
+
+    # Track successes
+    successful_optimistic_updates = 0
+
+    habit_id = "f21fa608-cfc6-4413-9fc7-0eb1b48ca43a"
+    habit_sensor_id = "sensor.gesundes_essen_junkfood"
+
+    # Get the habit sensor
+    habit_sensor = hass.data[DATA_HABIT_SENSORS][config_entry.entry_id][habit_id]
+
+    for _ in range(NUM_ATTEMPTS):
+        # Get current state before update
+        state_before = hass.states.get(habit_sensor_id)
+        assert state_before is not None
+        value_before = float(state_before.state)
+        counter_up_before = state_before.attributes["counter_up"]
+
+        # Trigger optimistic update
+        value_delta = 0.5
+        habit_sensor.set_optimistic_update(value_delta, "up")
+
+        # Check if optimistic update succeeded
+        state_after = hass.states.get(habit_sensor_id)
+        assert state_after is not None
+        value_after = float(state_after.state)
+        counter_up_after = state_after.attributes["counter_up"]
+
+        # Verify both value and counter changed (optimistic update applied)
+        expected_value = round(value_before + value_delta, 2)
+        if (
+            abs(value_after - expected_value) < 0.01
+            and counter_up_after == counter_up_before + 1
+        ):
+            successful_optimistic_updates += 1
+
+        # Clear optimistic values for next iteration
+        habit_sensor._optimistic_value = None
+        habit_sensor._optimistic_counter_up = None
+        habit_sensor._optimistic_counter_down = None
+        habit_sensor.async_write_ha_state()
+        await hass.async_block_till_done()
+
+    # Calculate success rate
+    success_rate = successful_optimistic_updates / NUM_ATTEMPTS
+
+    # Verify meets 95% threshold
+    assert success_rate >= SUCCESS_THRESHOLD, (
+        f"Optimistic update success rate {success_rate:.1%} is below "
+        f"required threshold of {SUCCESS_THRESHOLD:.1%}. "
+        f"Successful updates: {successful_optimistic_updates}/{NUM_ATTEMPTS}. "
+        f"NFR-1 requires reliable immediate feedback for responsive user experience."
+    )
+
+
+@pytest.mark.usefixtures("habitica")
 async def test_habit_sensor_handle_coordinator_update_clears_optimistic(
     hass: HomeAssistant,
     config_entry: MockConfigEntry,

@@ -92,6 +92,7 @@ Replace `username` with your Habitica username and `habit` with your habit name.
 
 ## Requirements Fulfilled
 
+✅ **FR-1** - Create habits 
 ✅ **FR-2** - Score up/down buttons for habits  
 ✅ **FR-3** - Sensors showing habit reset frequency  
 ✅ **FR-4** - Button state updates with immediate feedback  

@@ -135,6 +135,7 @@ class HabiticaHabitSensor(  # pylint: disable=hass-enforce-class-module
 
             return {
                 "habit_id": str(current_habit.id),
+                "entry_id": self.coordinator.config_entry.entry_id,
                 "text": current_habit.text,
                 "notes": current_habit.notes or "",
                 "counter_up": counter_up,

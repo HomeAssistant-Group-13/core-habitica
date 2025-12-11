@@ -1,4 +1,1016 @@
 # serializer version: 1
+# name: test_sensors[sensor.5_minuten_ruhig_durchatmen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.5_minuten_ruhig_durchatmen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': '5 Minuten ruhig durchatmen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.5_minuten_ruhig_durchatmen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'weekly',
+      'friendly_name': '5 Minuten ruhig durchatmen',
+      'habit_id': 'f2c85972-1a19-4426-bc6d-ce3337b9d99f',
+      'notes': 'Klicke um Deinen Terminplan festzulegen!',
+      'text': '5 Minuten ruhig durchatmen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.5_minuten_ruhig_durchatmen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '-1.92',
+  })
+# ---
+# name: test_sensors[sensor.arbeite_an_einem_kreativen_projekt-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.arbeite_an_einem_kreativen_projekt',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Arbeite an einem kreativen Projekt',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.arbeite_an_einem_kreativen_projekt-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'monthly',
+      'friendly_name': 'Arbeite an einem kreativen Projekt',
+      'habit_id': '6e53f1f5-a315-4edd-984d-8d762e4a08ef',
+      'notes': 'Klicke um den Namen Deines aktuellen Projekts anzugeben & setze einen Terminplan!',
+      'text': 'Arbeite an einem kreativen Projekt',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.arbeite_an_einem_kreativen_projekt',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '-0.92',
+  })
+# ---
+# name: test_sensors[sensor.belohne_dich_selbst-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.belohne_dich_selbst',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Belohne Dich selbst',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.belohne_dich_selbst-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'daily',
+      'friendly_name': 'Belohne Dich selbst',
+      'habit_id': '5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b',
+      'notes': 'Schaue fern, spiele ein Spiel, gönne Dir einen Leckerbissen, es liegt ganz bei Dir!',
+      'text': 'Belohne Dich selbst',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.belohne_dich_selbst',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '10.0',
+  })
+# ---
+# name: test_sensors[sensor.buch_zu_ende_lesen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.buch_zu_ende_lesen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Buch zu Ende lesen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.buch_zu_ende_lesen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'daily',
+      'friendly_name': 'Buch zu Ende lesen',
+      'habit_id': '88de7cd9-af2b-49ce-9afd-bf941d87336b',
+      'notes': 'Das Buch, das du angefangen hast, bis zum Wochenende fertig lesen.',
+      'text': 'Buch zu Ende lesen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.buch_zu_ende_lesen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.eine_kurze_pause_machen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.eine_kurze_pause_machen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Eine kurze Pause machen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.eine_kurze_pause_machen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': False,
+      'frequency': 'daily',
+      'friendly_name': 'Eine kurze Pause machen',
+      'habit_id': '1d147de6-5c02-4740-8e2f-71d3015a37f4',
+      'notes': '',
+      'text': 'Eine kurze Pause machen',
+      'up': True,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.eine_kurze_pause_machen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.fitnessstudio_besuchen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.fitnessstudio_besuchen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Fitnessstudio besuchen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.fitnessstudio_besuchen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'weekly',
+      'friendly_name': 'Fitnessstudio besuchen',
+      'habit_id': '2c6d136c-a1c3-4bef-b7c4-fa980784b1e1',
+      'notes': 'Ein einstündiges Workout im Fitnessstudio absolvieren.',
+      'text': 'Fitnessstudio besuchen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.fitnessstudio_besuchen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.fuge_eine_aufgabe_zu_habitica_hinzu-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.fuge_eine_aufgabe_zu_habitica_hinzu',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.fuge_eine_aufgabe_zu_habitica_hinzu-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': False,
+      'frequency': 'daily',
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu',
+      'habit_id': 'e97659e0-2c42-4599-a7bb-00282adc410d',
+      'notes': 'Eine Gewohnheit, eine Tagesaufgabe oder ein To-Do',
+      'text': 'Füge eine Aufgabe zu Habitica hinzu',
+      'up': True,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.fuge_eine_aufgabe_zu_habitica_hinzu',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.garten_pflegen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.garten_pflegen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Garten pflegen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.garten_pflegen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'daily',
+      'friendly_name': 'Garten pflegen',
+      'habit_id': '1aa3137e-ef72-4d1f-91ee-41933602f438',
+      'notes': 'Rasen mähen und die Pflanzen gießen.',
+      'text': 'Garten pflegen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.garten_pflegen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.gesundes_essen_junkfood-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.gesundes_essen_junkfood',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Gesundes Essen/Junkfood',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.gesundes_essen_junkfood-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': True,
+      'frequency': 'daily',
+      'friendly_name': 'Gesundes Essen/Junkfood',
+      'habit_id': 'f21fa608-cfc6-4413-9fc7-0eb1b48ca43a',
+      'notes': '',
+      'text': 'Gesundes Essen/Junkfood',
+      'up': True,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.gesundes_essen_junkfood',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.habitica_daily_motivation-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.habitica_daily_motivation',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Habitica Daily Motivation',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'motivational_prompt',
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_daily_motivation',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.habitica_daily_motivation-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'class': 'wizard',
+      'friendly_name': 'Habitica Daily Motivation',
+      'level': 38,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.habitica_daily_motivation',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '🚀 Your future self will thank you for what you do today!',
+  })
+# ---
+# name: test_sensors[sensor.habits_daily-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.habits_daily',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Habits Daily',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'habits_daily',
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habits_daily',
+    'unit_of_measurement': 'habits',
+  })
+# ---
+# name: test_sensors[sensor.habits_daily-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'frequency': 'daily',
+      'friendly_name': 'Habits Daily',
+      'habits': list([
+        dict({
+          'id': 'f21fa608-cfc6-4413-9fc7-0eb1b48ca43a',
+          'text': 'Gesundes Essen/Junkfood',
+          'value': 0,
+        }),
+        dict({
+          'id': '1d147de6-5c02-4740-8e2f-71d3015a37f4',
+          'text': 'Eine kurze Pause machen',
+          'value': 0,
+        }),
+        dict({
+          'id': 'bc1d1855-b2b8-4663-98ff-62e7b763dfc4',
+          'text': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest',
+          'value': 0,
+        }),
+        dict({
+          'id': 'e97659e0-2c42-4599-a7bb-00282adc410d',
+          'text': 'Füge eine Aufgabe zu Habitica hinzu',
+          'value': 0,
+        }),
+        dict({
+          'id': '88de7cd9-af2b-49ce-9afd-bf941d87336b',
+          'text': 'Buch zu Ende lesen',
+          'value': 0,
+        }),
+        dict({
+          'id': '2f6fcabc-f670-4ec3-ba65-817e8deea490',
+          'text': 'Rechnungen bezahlen',
+          'value': 0,
+        }),
+        dict({
+          'id': '1aa3137e-ef72-4d1f-91ee-41933602f438',
+          'text': 'Garten pflegen',
+          'value': 0,
+        }),
+        dict({
+          'id': '86ea2475-d1b5-4020-bdcc-c188c7996afa',
+          'text': 'Wochenendausflug planen',
+          'value': 0,
+        }),
+        dict({
+          'id': '5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b',
+          'text': 'Belohne Dich selbst',
+          'value': 10.0,
+        }),
+      ]),
+      'total_habits': 15,
+      'unit_of_measurement': 'habits',
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.habits_daily',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '9',
+  })
+# ---
+# name: test_sensors[sensor.habits_monthly-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.habits_monthly',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Habits Monthly',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'habits_monthly',
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habits_monthly',
+    'unit_of_measurement': 'habits',
+  })
+# ---
+# name: test_sensors[sensor.habits_monthly-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'frequency': 'monthly',
+      'friendly_name': 'Habits Monthly',
+      'habits': list([
+        dict({
+          'id': '6e53f1f5-a315-4edd-984d-8d762e4a08ef',
+          'text': 'Arbeite an einem kreativen Projekt',
+          'value': -0.92,
+        }),
+        dict({
+          'id': '369afeed-61e3-4bf7-9747-66e05807134c',
+          'text': 'Monatliche Finanzübersicht erstellen',
+          'value': -0.92,
+        }),
+      ]),
+      'total_habits': 15,
+      'unit_of_measurement': 'habits',
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.habits_monthly',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '2',
+  })
+# ---
+# name: test_sensors[sensor.habits_weekly-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.habits_weekly',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Habits Weekly',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'habits_weekly',
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habits_weekly',
+    'unit_of_measurement': 'habits',
+  })
+# ---
+# name: test_sensors[sensor.habits_weekly-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'frequency': 'weekly',
+      'friendly_name': 'Habits Weekly',
+      'habits': list([
+        dict({
+          'id': '564b9ac9-c53d-4638-9e7f-1cd96fe19baa',
+          'text': 'Zahnseide benutzen',
+          'value': -2.97,
+        }),
+        dict({
+          'id': 'f2c85972-1a19-4426-bc6d-ce3337b9d99f',
+          'text': '5 Minuten ruhig durchatmen',
+          'value': -1.92,
+        }),
+        dict({
+          'id': '2c6d136c-a1c3-4bef-b7c4-fa980784b1e1',
+          'text': 'Fitnessstudio besuchen',
+          'value': 0,
+        }),
+        dict({
+          'id': '7d92278b-9361-4854-83b6-0a66b57dce20',
+          'text': 'Lerne eine neue Programmiersprache',
+          'value': -0.92,
+        }),
+      ]),
+      'total_habits': 15,
+      'unit_of_measurement': 'habits',
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.habits_weekly',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '4',
+  })
+# ---
+# name: test_sensors[sensor.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': True,
+      'frequency': 'daily',
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest',
+      'habit_id': 'bc1d1855-b2b8-4663-98ff-62e7b763dfc4',
+      'notes': 'Oder lösche es über die Bearbeitungs-Ansicht',
+      'text': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest',
+      'up': False,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.lerne_eine_neue_programmiersprache-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.lerne_eine_neue_programmiersprache',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Lerne eine neue Programmiersprache',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.lerne_eine_neue_programmiersprache-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'weekly',
+      'friendly_name': 'Lerne eine neue Programmiersprache',
+      'habit_id': '7d92278b-9361-4854-83b6-0a66b57dce20',
+      'notes': 'Wähle eine Programmiersprache aus, die du noch nicht kennst, und lerne die Grundlagen.',
+      'text': 'Lerne eine neue Programmiersprache',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.lerne_eine_neue_programmiersprache',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '-0.92',
+  })
+# ---
+# name: test_sensors[sensor.monatliche_finanzubersicht_erstellen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.monatliche_finanzubersicht_erstellen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Monatliche Finanzübersicht erstellen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.monatliche_finanzubersicht_erstellen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'monthly',
+      'friendly_name': 'Monatliche Finanzübersicht erstellen',
+      'habit_id': '369afeed-61e3-4bf7-9747-66e05807134c',
+      'notes': 'Setze dich einmal im Monat hin, um deine Einnahmen und Ausgaben zu überprüfen und dein Budget zu planen.',
+      'text': 'Monatliche Finanzübersicht erstellen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.monatliche_finanzubersicht_erstellen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '-0.92',
+  })
+# ---
+# name: test_sensors[sensor.rechnungen_bezahlen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.rechnungen_bezahlen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Rechnungen bezahlen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.rechnungen_bezahlen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'daily',
+      'friendly_name': 'Rechnungen bezahlen',
+      'habit_id': '2f6fcabc-f670-4ec3-ba65-817e8deea490',
+      'notes': 'Strom- und Internetrechnungen rechtzeitig überweisen.',
+      'text': 'Rechnungen bezahlen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.rechnungen_bezahlen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
 # name: test_sensors[sensor.test_partymember_displayname_class-entry]
   EntityRegistryEntrySnapshot({
     'aliases': set({
@@ -816,6 +1828,58 @@
     'state': '102',
   })
 # ---
+# name: test_sensors[sensor.test_user_daily_motivation-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.test_user_daily_motivation',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Daily motivation',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': <HabiticaSensorEntity.MOTIVATIONAL_PROMPT: 'motivational_prompt'>,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_motivational_prompt',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.test_user_daily_motivation-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'class': 'wizard',
+      'friendly_name': 'test-user Daily motivation',
+      'level': 38,
+      'total_habits': 1,
+      'updated_daily': 'Updates once per day with personalized content',
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.test_user_daily_motivation',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '🚀 Your future self will thank you for what you do today!',
+  })
+# ---
 # name: test_sensors[sensor.test_user_display_name-entry]
   EntityRegistryEntrySnapshot({
     'aliases': set({
@@ -1077,6 +2141,54 @@
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': '137.625872146098',
+  })
+# ---
+# name: test_sensors[sensor.test_user_habits-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.test_user_habits',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Habits',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': <HabiticaSensorEntity.HABITS: 'habits'>,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habits',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.test_user_habits-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'test-user Habits',
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.test_user_habits',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '1',
   })
 # ---
 # name: test_sensors[sensor.test_user_hatching_potions-entry]
@@ -2378,5 +3490,117 @@
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': '104',
+  })
+# ---
+# name: test_sensors[sensor.wochenendausflug_planen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.wochenendausflug_planen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Wochenendausflug planen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.wochenendausflug_planen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'daily',
+      'friendly_name': 'Wochenendausflug planen',
+      'habit_id': '86ea2475-d1b5-4020-bdcc-c188c7996afa',
+      'notes': 'Den Ausflug für das kommende Wochenende organisieren.',
+      'text': 'Wochenendausflug planen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.wochenendausflug_planen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '0',
+  })
+# ---
+# name: test_sensors[sensor.zahnseide_benutzen-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'sensor',
+    'entity_category': None,
+    'entity_id': 'sensor.zahnseide_benutzen',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zahnseide benutzen',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_sensors[sensor.zahnseide_benutzen-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'counter_down': 0,
+      'counter_up': 0,
+      'down': None,
+      'frequency': 'weekly',
+      'friendly_name': 'Zahnseide benutzen',
+      'habit_id': '564b9ac9-c53d-4638-9e7f-1cd96fe19baa',
+      'notes': 'Klicke um Änderungen zu machen!',
+      'text': 'Zahnseide benutzen',
+      'up': None,
+    }),
+    'context': <ANY>,
+    'entity_id': 'sensor.zahnseide_benutzen',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': '-2.97',
   })
 # ---

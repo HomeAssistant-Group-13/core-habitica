@@ -1,4 +1,1278 @@
 # serializer version: 1
+# name: test_buttons[healer_fixture][button.5_minuten_ruhig_durchatmen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': '5 Minuten ruhig durchatmen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.5_minuten_ruhig_durchatmen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.5_minuten_ruhig_durchatmen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': '5 Minuten ruhig durchatmen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.5_minuten_ruhig_durchatmen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.arbeite_an_einem_kreativen_projekt_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Arbeite an einem kreativen Projekt (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.arbeite_an_einem_kreativen_projekt_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.arbeite_an_einem_kreativen_projekt_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Arbeite an einem kreativen Projekt (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.arbeite_an_einem_kreativen_projekt_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.belohne_dich_selbst_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Belohne Dich selbst (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.belohne_dich_selbst_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.belohne_dich_selbst_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Belohne Dich selbst (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.belohne_dich_selbst_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.buch_zu_ende_lesen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Buch zu Ende lesen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.buch_zu_ende_lesen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.buch_zu_ende_lesen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Buch zu Ende lesen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.buch_zu_ende_lesen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.eine_kurze_pause_machen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Eine kurze Pause machen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.eine_kurze_pause_machen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.eine_kurze_pause_machen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Eine kurze Pause machen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.eine_kurze_pause_machen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fitnessstudio_besuchen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Fitnessstudio besuchen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fitnessstudio_besuchen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fitnessstudio_besuchen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Fitnessstudio besuchen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fitnessstudio_besuchen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.garten_pflegen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Garten pflegen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.garten_pflegen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.garten_pflegen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Garten pflegen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.garten_pflegen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.gesundes_essen_junkfood_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Gesundes Essen/Junkfood (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.gesundes_essen_junkfood_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.gesundes_essen_junkfood_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Gesundes Essen/Junkfood (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.gesundes_essen_junkfood_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.lerne_eine_neue_programmiersprache_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Lerne eine neue Programmiersprache (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.lerne_eine_neue_programmiersprache_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.lerne_eine_neue_programmiersprache_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Lerne eine neue Programmiersprache (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.lerne_eine_neue_programmiersprache_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.monatliche_finanzubersicht_erstellen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.monatliche_finanzubersicht_erstellen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.monatliche_finanzubersicht_erstellen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.monatliche_finanzubersicht_erstellen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.rechnungen_bezahlen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Rechnungen bezahlen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.rechnungen_bezahlen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.rechnungen_bezahlen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Rechnungen bezahlen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.rechnungen_bezahlen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
 # name: test_buttons[healer_fixture][button.test_user_allocate_all_stat_points-entry]
   EntityRegistryEntrySnapshot({
     'aliases': set({
@@ -388,6 +1662,1476 @@
     'state': 'unknown',
   })
 # ---
+# name: test_buttons[healer_fixture][button.wochenendausflug_planen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Wochenendausflug planen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.wochenendausflug_planen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.wochenendausflug_planen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Wochenendausflug planen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.wochenendausflug_planen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.zahnseide_benutzen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Zahnseide benutzen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.zahnseide_benutzen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[healer_fixture][button.zahnseide_benutzen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Zahnseide benutzen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[healer_fixture][button.zahnseide_benutzen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.5_minuten_ruhig_durchatmen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': '5 Minuten ruhig durchatmen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.5_minuten_ruhig_durchatmen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.5_minuten_ruhig_durchatmen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': '5 Minuten ruhig durchatmen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.5_minuten_ruhig_durchatmen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.arbeite_an_einem_kreativen_projekt_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Arbeite an einem kreativen Projekt (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.arbeite_an_einem_kreativen_projekt_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.arbeite_an_einem_kreativen_projekt_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Arbeite an einem kreativen Projekt (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.arbeite_an_einem_kreativen_projekt_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.belohne_dich_selbst_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Belohne Dich selbst (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.belohne_dich_selbst_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.belohne_dich_selbst_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Belohne Dich selbst (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.belohne_dich_selbst_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.buch_zu_ende_lesen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Buch zu Ende lesen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.buch_zu_ende_lesen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.buch_zu_ende_lesen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Buch zu Ende lesen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.buch_zu_ende_lesen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.eine_kurze_pause_machen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Eine kurze Pause machen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.eine_kurze_pause_machen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.eine_kurze_pause_machen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Eine kurze Pause machen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.eine_kurze_pause_machen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fitnessstudio_besuchen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Fitnessstudio besuchen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fitnessstudio_besuchen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fitnessstudio_besuchen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Fitnessstudio besuchen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fitnessstudio_besuchen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.garten_pflegen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Garten pflegen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.garten_pflegen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.garten_pflegen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Garten pflegen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.garten_pflegen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.gesundes_essen_junkfood_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Gesundes Essen/Junkfood (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.gesundes_essen_junkfood_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.gesundes_essen_junkfood_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Gesundes Essen/Junkfood (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.gesundes_essen_junkfood_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.lerne_eine_neue_programmiersprache_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Lerne eine neue Programmiersprache (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.lerne_eine_neue_programmiersprache_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.lerne_eine_neue_programmiersprache_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Lerne eine neue Programmiersprache (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.lerne_eine_neue_programmiersprache_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.monatliche_finanzubersicht_erstellen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.monatliche_finanzubersicht_erstellen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.monatliche_finanzubersicht_erstellen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.monatliche_finanzubersicht_erstellen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.rechnungen_bezahlen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Rechnungen bezahlen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.rechnungen_bezahlen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.rechnungen_bezahlen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Rechnungen bezahlen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.rechnungen_bezahlen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
 # name: test_buttons[rogue_fixture][button.test_user_allocate_all_stat_points-entry]
   EntityRegistryEntrySnapshot({
     'aliases': set({
@@ -677,6 +3421,1476 @@
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'unknown',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.wochenendausflug_planen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Wochenendausflug planen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.wochenendausflug_planen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.wochenendausflug_planen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Wochenendausflug planen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.wochenendausflug_planen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.zahnseide_benutzen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Zahnseide benutzen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.zahnseide_benutzen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.zahnseide_benutzen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Zahnseide benutzen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[rogue_fixture][button.zahnseide_benutzen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.5_minuten_ruhig_durchatmen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': '5 Minuten ruhig durchatmen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.5_minuten_ruhig_durchatmen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.5_minuten_ruhig_durchatmen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': '5 Minuten ruhig durchatmen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.5_minuten_ruhig_durchatmen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.arbeite_an_einem_kreativen_projekt_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Arbeite an einem kreativen Projekt (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.arbeite_an_einem_kreativen_projekt_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.arbeite_an_einem_kreativen_projekt_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Arbeite an einem kreativen Projekt (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.arbeite_an_einem_kreativen_projekt_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.belohne_dich_selbst_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Belohne Dich selbst (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.belohne_dich_selbst_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.belohne_dich_selbst_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Belohne Dich selbst (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.belohne_dich_selbst_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.buch_zu_ende_lesen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Buch zu Ende lesen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.buch_zu_ende_lesen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.buch_zu_ende_lesen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Buch zu Ende lesen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.buch_zu_ende_lesen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.eine_kurze_pause_machen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Eine kurze Pause machen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.eine_kurze_pause_machen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.eine_kurze_pause_machen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Eine kurze Pause machen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.eine_kurze_pause_machen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fitnessstudio_besuchen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Fitnessstudio besuchen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fitnessstudio_besuchen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fitnessstudio_besuchen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Fitnessstudio besuchen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fitnessstudio_besuchen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.garten_pflegen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Garten pflegen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.garten_pflegen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.garten_pflegen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Garten pflegen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.garten_pflegen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.gesundes_essen_junkfood_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Gesundes Essen/Junkfood (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.gesundes_essen_junkfood_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.gesundes_essen_junkfood_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Gesundes Essen/Junkfood (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.gesundes_essen_junkfood_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.lerne_eine_neue_programmiersprache_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Lerne eine neue Programmiersprache (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.lerne_eine_neue_programmiersprache_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.lerne_eine_neue_programmiersprache_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Lerne eine neue Programmiersprache (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.lerne_eine_neue_programmiersprache_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.monatliche_finanzubersicht_erstellen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.monatliche_finanzubersicht_erstellen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.monatliche_finanzubersicht_erstellen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.monatliche_finanzubersicht_erstellen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.rechnungen_bezahlen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Rechnungen bezahlen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.rechnungen_bezahlen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.rechnungen_bezahlen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Rechnungen bezahlen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.rechnungen_bezahlen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
   })
 # ---
 # name: test_buttons[warrior_fixture][button.test_user_allocate_all_stat_points-entry]
@@ -1019,6 +5233,1476 @@
     'state': 'unknown',
   })
 # ---
+# name: test_buttons[warrior_fixture][button.wochenendausflug_planen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Wochenendausflug planen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.wochenendausflug_planen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.wochenendausflug_planen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Wochenendausflug planen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.wochenendausflug_planen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.zahnseide_benutzen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Zahnseide benutzen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.zahnseide_benutzen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.zahnseide_benutzen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Zahnseide benutzen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[warrior_fixture][button.zahnseide_benutzen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.5_minuten_ruhig_durchatmen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': '5 Minuten ruhig durchatmen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.5_minuten_ruhig_durchatmen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.5_minuten_ruhig_durchatmen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': '5 Minuten ruhig durchatmen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f2c85972-1a19-4426-bc6d-ce3337b9d99f_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.5_minuten_ruhig_durchatmen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': '5 Minuten ruhig durchatmen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.5_minuten_ruhig_durchatmen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.arbeite_an_einem_kreativen_projekt_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Arbeite an einem kreativen Projekt (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.arbeite_an_einem_kreativen_projekt_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.arbeite_an_einem_kreativen_projekt_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Arbeite an einem kreativen Projekt (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_6e53f1f5-a315-4edd-984d-8d762e4a08ef_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.arbeite_an_einem_kreativen_projekt_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Arbeite an einem kreativen Projekt (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.arbeite_an_einem_kreativen_projekt_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.belohne_dich_selbst_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Belohne Dich selbst (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.belohne_dich_selbst_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.belohne_dich_selbst_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Belohne Dich selbst (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_5e2ea1df-f6e6-4ba3-bccb-97c5ec63e99b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.belohne_dich_selbst_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Belohne Dich selbst (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.belohne_dich_selbst_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.buch_zu_ende_lesen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Buch zu Ende lesen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.buch_zu_ende_lesen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.buch_zu_ende_lesen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Buch zu Ende lesen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_88de7cd9-af2b-49ce-9afd-bf941d87336b_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.buch_zu_ende_lesen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Buch zu Ende lesen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.buch_zu_ende_lesen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.eine_kurze_pause_machen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Eine kurze Pause machen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.eine_kurze_pause_machen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.eine_kurze_pause_machen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Eine kurze Pause machen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1d147de6-5c02-4740-8e2f-71d3015a37f4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.eine_kurze_pause_machen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Eine kurze Pause machen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.eine_kurze_pause_machen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fitnessstudio_besuchen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Fitnessstudio besuchen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fitnessstudio_besuchen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fitnessstudio_besuchen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Fitnessstudio besuchen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2c6d136c-a1c3-4bef-b7c4-fa980784b1e1_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fitnessstudio_besuchen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Fitnessstudio besuchen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fitnessstudio_besuchen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_e97659e0-2c42-4599-a7bb-00282adc410d_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.fuge_eine_aufgabe_zu_habitica_hinzu_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Füge eine Aufgabe zu Habitica hinzu (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.fuge_eine_aufgabe_zu_habitica_hinzu_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.garten_pflegen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Garten pflegen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.garten_pflegen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.garten_pflegen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.garten_pflegen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Garten pflegen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_1aa3137e-ef72-4d1f-91ee-41933602f438_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.garten_pflegen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Garten pflegen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.garten_pflegen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.gesundes_essen_junkfood_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Gesundes Essen/Junkfood (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.gesundes_essen_junkfood_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.gesundes_essen_junkfood_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Gesundes Essen/Junkfood (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_f21fa608-cfc6-4413-9fc7-0eb1b48ca43a_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.gesundes_essen_junkfood_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Gesundes Essen/Junkfood (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.gesundes_essen_junkfood_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unknown',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_bc1d1855-b2b8-4663-98ff-62e7b763dfc4_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Klicke hier um dies als schlechte Gewohnheit zu markieren, die Du gerne loswerden möchtest (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.klicke_hier_um_dies_als_schlechte_gewohnheit_zu_markieren_die_du_gerne_loswerden_mochtest_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.lerne_eine_neue_programmiersprache_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Lerne eine neue Programmiersprache (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.lerne_eine_neue_programmiersprache_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.lerne_eine_neue_programmiersprache_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Lerne eine neue Programmiersprache (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_7d92278b-9361-4854-83b6-0a66b57dce20_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.lerne_eine_neue_programmiersprache_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Lerne eine neue Programmiersprache (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.lerne_eine_neue_programmiersprache_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.monatliche_finanzubersicht_erstellen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.monatliche_finanzubersicht_erstellen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.monatliche_finanzubersicht_erstellen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Monatliche Finanzübersicht erstellen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_369afeed-61e3-4bf7-9747-66e05807134c_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.monatliche_finanzubersicht_erstellen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Monatliche Finanzübersicht erstellen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.monatliche_finanzubersicht_erstellen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.rechnungen_bezahlen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Rechnungen bezahlen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.rechnungen_bezahlen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.rechnungen_bezahlen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Rechnungen bezahlen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_2f6fcabc-f670-4ec3-ba65-817e8deea490_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.rechnungen_bezahlen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Rechnungen bezahlen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.rechnungen_bezahlen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
 # name: test_buttons[wizard_fixture][button.test_user_allocate_all_stat_points-entry]
   EntityRegistryEntrySnapshot({
     'aliases': set({
@@ -1357,5 +7041,201 @@
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'unknown',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.wochenendausflug_planen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Wochenendausflug planen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.wochenendausflug_planen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.wochenendausflug_planen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Wochenendausflug planen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_86ea2475-d1b5-4020-bdcc-c188c7996afa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.wochenendausflug_planen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Wochenendausflug planen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.wochenendausflug_planen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.zahnseide_benutzen_down-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:minus',
+    'original_name': 'Zahnseide benutzen (down)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_down',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.zahnseide_benutzen_down-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (down)',
+      'icon': 'mdi:minus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_down',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.zahnseide_benutzen_up-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': set({
+    }),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': <ANY>,
+    'device_class': None,
+    'device_id': <ANY>,
+    'disabled_by': None,
+    'domain': 'button',
+    'entity_category': None,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'has_entity_name': False,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': 'mdi:plus',
+    'original_name': 'Zahnseide benutzen (up)',
+    'platform': 'habitica',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': None,
+    'unique_id': 'a380546a-94be-4b8e-8a0b-23e0d5c03303_habit_564b9ac9-c53d-4638-9e7f-1cd96fe19baa_up',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_buttons[wizard_fixture][button.zahnseide_benutzen_up-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      'friendly_name': 'Zahnseide benutzen (up)',
+      'icon': 'mdi:plus',
+    }),
+    'context': <ANY>,
+    'entity_id': 'button.zahnseide_benutzen_up',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'unavailable',
   })
 # ---

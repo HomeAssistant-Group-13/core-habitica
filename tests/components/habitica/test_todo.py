@@ -792,6 +792,7 @@ async def test_next_due_date(
             await async_load_fixture(hass, fixture, DOMAIN)
         ),
         HabiticaTasksResponse.from_dict({"success": True, "data": []}),
+        HabiticaTasksResponse.from_dict({"success": True, "data": []}),
     ]
 
     config_entry.add_to_hass(hass)
